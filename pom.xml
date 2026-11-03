@@ -4,6 +4,10 @@
 	<groupId>com.javacodegeeks.jms</groupId>
 	<artifactId>springJmsQueue</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<maven.compiler.release>25</maven.compiler.release>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.activemq</groupId>
